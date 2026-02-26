@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="m3p2 flowg"/>
+        <attribute name="authors" value="h31sy"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-02-25 06:57:20 PM"/>
+        <attribute name="created" value="aDMxc3k7U0tJX1pFTkJPT0s7MjAyNi0wMi0yNTswMzozOTowOSBQTTsyNTg5"/>
+        <attribute name="edited" value="aDMxc3k7U0tJX1pFTkJPT0s7MjAyNi0wMi0yNTswNjo1NzoyMCBQTTs0OzI2OTY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="exam1" type="Real" array="False" size=""/>
+            <declare name="exam2" type="Real" array="False" size=""/>
+            <declare name="totalgrade" type="Real" array="False" size=""/>
+            <input variable="exam1"/>
+            <input variable="exam2"/>
+            <assign variable="totalgrade" expression="(exam1 * .6) + (exam2 * .4)"/>
+            <output expression="&quot;the final grade is &quot; &amp;totalgrade &amp;&quot; percent&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="m4p2 flowg"/>
+        <attribute name="authors" value="h31sy"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-02-25 07:22:05 PM"/>
+        <attribute name="created" value="aDMxc3k7U0tJX1pFTkJPT0s7MjAyNi0wMi0yNTswNzoxODozNyBQTTsyNTkx"/>
+        <attribute name="edited" value="aDMxc3k7U0tJX1pFTkJPT0s7MjAyNi0wMi0yNTswNzoyMjowNSBQTTsxOzI2ODk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="purchaseprice" type="Real" array="False" size=""/>
+            <declare name="currentprice" type="Real" array="False" size=""/>
+            <declare name="quantity" type="Integer" array="False" size=""/>
+            <declare name="value" type="Real" array="False" size=""/>
+            <input variable="purchaseprice"/>
+            <input variable="currentprice"/>
+            <input variable="quantity"/>
+            <assign variable="value" expression="(currentprice-purchaseprice) * quantity"/>
+            <output expression="&quot;the value of your shares is &quot; &amp;value &amp;&quot; dollars&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
