@@ -1,0 +1,10 @@
+Anderson 0.320
+Brown 0.285
+Clark 0.250
+Davis 0.310
+Evans 0.270
+Frank 0.295
+Garcia 0.305
+Harris 0.265
+Irwin 0.280
+Jones 0.300
